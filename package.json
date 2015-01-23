@@ -1,0 +1,29 @@
+{
+  "name": "wrapped-value",
+  "version": "0.1.0",
+  "description": "Simple helper for wrapping and unwrapping values",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:traceur-runner ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tgriesser/wrapped-value.git"
+  },
+  "keywords": [
+    "wrap",
+    "wrapped",
+    "value"
+  ],
+  "author": "Tim Griesser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgriesser/wrapped-value/issues"
+  },
+  "homepage": "https://github.com/tgriesser/wrapped-value",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "traceur": "0.0.81",
+    "traceur-runner": "^1.0.2"
+  }
+}
